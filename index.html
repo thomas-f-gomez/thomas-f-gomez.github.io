@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Michi Consulting — IA y Machine Learning a medida</title>
+  <title>Michi Consulting — IA & Machine Learning a medida</title>
   <meta name="description" content="Consultoría independiente en inteligencia artificial y machine learning aplicada a problemas reales de negocio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,86 +15,146 @@
   <!-- ============ NAV ============ -->
   <header class="nav">
     <div class="container nav__inner">
-      <a href="#hero" class="nav__brand">Michi<span>Consulting</span></a>
+      <a href="#hero" class="nav__brand">
+        <span class="nav__mark" aria-hidden="true">M</span>
+        <span class="nav__word">Michi&nbsp;Consulting</span>
+      </a>
       <nav class="nav__links">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#casos">Casos</a>
-        <a href="#por-que">Por qué yo</a>
-        <a href="#contacto" class="nav__cta">Hablemos</a>
+        <a href="#sobre-mi"><span class="idx">01</span>Sobre mí</a>
+        <a href="#servicios"><span class="idx">02</span>Servicios</a>
+        <a href="#casos"><span class="idx">03</span>Casos</a>
+        <a href="#por-que"><span class="idx">04</span>Por qué</a>
+        <a href="#contacto" class="nav__cta">Contacto&nbsp;↗</a>
       </nav>
     </div>
   </header>
 
   <!-- ============ HERO ============ -->
   <section id="hero" class="hero">
+    <span class="hero__watermark" aria-hidden="true">MICHI&nbsp;CONSULTING</span>
+    <div class="hero__laser" aria-hidden="true"></div>
+
     <div class="container">
-      <h1 class="hero__title">Michi Consulting</h1>
-      <p class="hero__tagline">Convierto problemas complejos en sistemas inteligentes.</p>
-      <p class="hero__text">
-        Consultoría independiente en inteligencia artificial y machine learning
-        aplicada a problemas reales de negocio: desde asistencia de diseño con
-        agentes de IA hasta optimización de operaciones logísticas.
-      </p>
-      <a href="#contacto" class="btn btn--primary">Hablemos de tu proyecto</a>
+      <p class="kicker">[ consultoría independiente — inteligencia artificial &amp; machine learning ]</p>
+      <h1 class="hero__title">Michi<br />Consulting</h1>
+
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="hero__tagline">Convierto problemas complejos en sistemas inteligentes.</p>
+          <p class="hero__text">
+            Consultoría independiente en inteligencia artificial y machine learning
+            aplicada a problemas reales de negocio: desde asistencia de diseño con
+            agentes de IA hasta optimización de operaciones logísticas.
+          </p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--accent">Hablemos de tu proyecto&nbsp;↗</a>
+            <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+          </div>
+        </div>
+
+        <div class="hero__panel" aria-hidden="true">
+          <div class="diamond">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p class="mono caption">system — active</p>
+        </div>
+      </div>
+
+      <ul class="hero__chips">
+        <li class="chip">AI agents</li>
+        <li class="chip">ML models</li>
+        <li class="chip">Operations</li>
+      </ul>
     </div>
   </section>
 
   <!-- ============ SOBRE MÍ ============ -->
   <section id="sobre-mi" class="section">
     <div class="container">
-      <h2 class="section__title">Sobre mí</h2>
-      <p class="section__lead">Sobre Michi Consulting</p>
-      <p>
-        Soy Thomas, founder de Michi Consulting. Arranqué en 2022, en el mismo
-        momento en que ChatGPT salía al mundo — ahí empecé a experimentar en serio
-        con inteligencia artificial. Vengo del mundo de la logística, así que desde
-        el día uno entendí que la tecnología vale por los problemas reales que
-        resuelve, no por lo sofisticada que suena.
-      </p>
-      <p>
-        Mi forma de trabajar parte de una idea simple: todo problema es una
-        oportunidad mal disfrazada. Mi trabajo es encontrar dónde está esa
-        oportunidad y construir el sistema que la haga realidad.
-      </p>
-      <p>
-        Hoy ayudo a empresas a diseñar, entrenar y poner en producción soluciones
-        de IA y machine learning a medida.
-      </p>
+      <div class="section__head">
+        <p class="kicker">[ introduction ]</p>
+        <p class="mono section__idx">// 01</p>
+      </div>
+      <h2 class="section__title">Sobre<br />Michi Consulting</h2>
+
+      <div class="grid-asym">
+        <aside class="grid-asym__side">
+          <p class="mono label">founder — thomas gómez</p>
+          <p class="mono label">since 2022</p>
+          <p class="mono label">origin — logistics</p>
+        </aside>
+        <div class="grid-asym__main">
+          <p>
+            Soy Thomas, founder de Michi Consulting. Arranqué en 2022, en el mismo
+            momento en que ChatGPT salía al mundo — ahí empecé a experimentar en serio
+            con inteligencia artificial. Vengo del mundo de la logística, así que desde
+            el día uno entendí que la tecnología vale por los problemas reales que
+            resuelve, no por lo sofisticada que suena.
+          </p>
+          <p>
+            Mi forma de trabajar parte de una idea simple: <em>todo problema es una
+            oportunidad mal disfrazada</em>. Mi trabajo es encontrar dónde está esa
+            oportunidad y construir el sistema que la haga realidad.
+          </p>
+          <p>
+            Hoy ayudo a empresas a diseñar, entrenar y poner en producción soluciones
+            de IA y machine learning a medida.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ============ SERVICIOS ============ -->
-  <section id="servicios" class="section section--alt">
+  <section id="servicios" class="section">
     <div class="container">
+      <div class="section__head">
+        <p class="kicker">[ services ]</p>
+        <p class="mono section__idx">// 02</p>
+      </div>
       <h2 class="section__title">Qué hago</h2>
 
-      <div class="card">
-        <h3>— Agentes de IA a medida</h3>
-        <p>
-          Diseño y fine-tuning de agentes de inteligencia artificial adaptados a
-          flujos de trabajo específicos, para asistir tareas complejas de forma
-          autónoma o semi-autónoma.
-        </p>
+      <div class="stack">
+        <article class="svc">
+          <div class="svc__head">
+            <span class="mono svc__num">// 01</span>
+            <span class="chip">design</span>
+          </div>
+          <h3 class="svc__title">Agentes de IA a medida</h3>
+          <p class="svc__text">
+            Diseño y fine-tuning de agentes de inteligencia artificial adaptados a
+            flujos de trabajo específicos, para asistir tareas complejas de forma
+            autónoma o semi-autónoma.
+          </p>
+        </article>
+
+        <article class="svc">
+          <div class="svc__head">
+            <span class="mono svc__num">// 02</span>
+            <span class="chip">patterns</span>
+          </div>
+          <h3 class="svc__title">Machine Learning para detección de patrones</h3>
+          <p class="svc__text">
+            Modelos de ML que identifican patrones en tus datos y sostienen la toma
+            de decisiones, integrados directamente en tus procesos.
+          </p>
+        </article>
+
+        <article class="svc">
+          <div class="svc__head">
+            <span class="mono svc__num">// 03</span>
+            <span class="chip">operations</span>
+          </div>
+          <h3 class="svc__title">Optimización de operaciones con IA</h3>
+          <p class="svc__text">
+            Modelos predictivos y de optimización aplicados a logística y
+            operaciones, para reducir costos y tiempos de forma medible.
+          </p>
+        </article>
       </div>
 
-      <div class="card">
-        <h3>— Machine Learning para detección de patrones</h3>
-        <p>
-          Modelos de ML que identifican patrones en tus datos y sostienen la toma
-          de decisiones, integrados directamente en tus procesos.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>— Optimización de operaciones con IA</h3>
-        <p>
-          Modelos predictivos y de optimización aplicados a logística y
-          operaciones, para reducir costos y tiempos de forma medible.
-        </p>
-      </div>
-
-      <p class="section__note">
+      <p class="note">
+        <span class="mono note__tag">[ note ]</span>
         ¿Tu problema no está en esta lista? Igual hablemos — la mayoría de los
         proyectos que hago no empezaron sabiendo que necesitaban IA.
       </p>
@@ -101,59 +164,118 @@
   <!-- ============ CASOS DE ÉXITO ============ -->
   <section id="casos" class="section">
     <div class="container">
-      <h2 class="section__title">Casos de éxito</h2>
-
-      <div class="card">
-        <h3>Asistencia de diseño en modelado 3D</h3>
-        <p>
-          Diseñé y entrené agentes de IA junto con modelos de machine learning para
-          detección de patrones, integrados en un flujo de trabajo de modelado 3D.
-          El sistema asiste al equipo de diseño en la toma de decisiones en tiempo
-          real durante el proceso creativo.
-        </p>
+      <div class="section__head">
+        <p class="kicker">[ case studies ]</p>
+        <p class="mono section__idx">// 03</p>
       </div>
+      <h2 class="section__title">Casos<br />de éxito</h2>
 
-      <div class="card">
-        <h3>Optimización de logística de última milla</h3>
-        <p>
-          Desarrollé un modelo de machine learning para optimizar rutas y
-          decisiones operativas en la última etapa de entrega, con impacto directo
-          en costos y tiempos de distribución.
-        </p>
+      <div class="grid-2">
+        <article class="case">
+          <div class="case__head">
+            <span class="mono case__num">case 01</span>
+            <span class="chip">3d — design</span>
+          </div>
+          <h3 class="case__title">Asistencia de diseño en modelado 3D ↗</h3>
+          <p class="case__text">
+            Diseñé y entrené agentes de IA junto con modelos de machine learning para
+            detección de patrones, integrados en un flujo de trabajo de modelado 3D.
+            El sistema asiste al equipo de diseño en la toma de decisiones en tiempo
+            real durante el proceso creativo.
+          </p>
+        </article>
+
+        <article class="case">
+          <div class="case__head">
+            <span class="mono case__num">case 02</span>
+            <span class="chip">logistics</span>
+          </div>
+          <h3 class="case__title">Optimización de logística de última milla ↗</h3>
+          <p class="case__text">
+            Desarrollé un modelo de machine learning para optimizar rutas y
+            decisiones operativas en la última etapa de entrega, con impacto directo
+            en costos y tiempos de distribución.
+          </p>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- ============ POR QUÉ ============ -->
-  <section id="por-que" class="section section--alt">
+  <section id="por-que" class="section">
     <div class="container">
-      <h2 class="section__title">Por qué Michi Consulting</h2>
-      <ul class="list">
-        <li><strong>Trabajo end-to-end:</strong> desde el diseño de la solución hasta su puesta en producción.</li>
-        <li><strong>Vengo de la industria, no solo de la teoría:</strong> entiendo cómo operan las áreas antes de automatizarlas.</li>
-        <li><strong>Cada proyecto se adapta al negocio,</strong> no al revés.</li>
-      </ul>
+      <div class="section__head">
+        <p class="kicker">[ why ]</p>
+        <p class="mono section__idx">// 04</p>
+      </div>
+      <h2 class="section__title">Por qué<br />Michi Consulting</h2>
+
+      <div class="grid-asym">
+        <div class="grid-asym__main">
+          <ol class="list">
+            <li>
+              <span class="mono list__num">01</span>
+              <div class="list__body">
+                <h3>Trabajo end-to-end</h3>
+                <p>Desde el diseño de la solución hasta su puesta en producción.</p>
+              </div>
+            </li>
+            <li>
+              <span class="mono list__num">02</span>
+              <div class="list__body">
+                <h3>Vengo de la industria, no solo de la teoría</h3>
+                <p>Entiendo cómo operan las áreas antes de automatizarlas.</p>
+              </div>
+            </li>
+            <li>
+              <span class="mono list__num">03</span>
+              <div class="list__body">
+                <h3>Cada proyecto se adapta al negocio</h3>
+                <p>No al revés.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <aside class="grid-asym__side gauge-wrap" aria-hidden="true">
+          <div class="gauge">
+            <span class="gauge__needle"></span>
+            <span class="gauge__hub"></span>
+            <span class="mono gauge__value">100%</span>
+          </div>
+          <p class="mono caption">operational readiness</p>
+        </aside>
+      </div>
     </div>
   </section>
 
   <!-- ============ CONTACTO ============ -->
-  <section id="contacto" class="section hero">
+  <section id="contacto" class="section contact">
+    <span class="contact__watermark" aria-hidden="true">CONTACT</span>
     <div class="container">
-      <h2 class="section__title">Trabajemos juntos</h2>
-      <p class="section__lead">Contame tu problema y veamos si es una oportunidad.</p>
-      <div class="contact__links">
-        <a class="btn btn--primary" href="mailto:thomasgomezone@gmail.com">Email</a>
-        <a class="btn btn--ghost" href="https://linkedin.com/in/thomas-gomez-pro" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="section__head">
+        <p class="kicker">[ contact ]</p>
+        <p class="mono section__idx">// 05</p>
       </div>
+      <h2 class="section__title">Trabajemos<br />juntos</h2>
+      <p class="contact__lead">Contame tu problema y veamos si es una oportunidad.</p>
+
+      <div class="contact__actions">
+        <a href="mailto:thomasgomezone@gmail.com" class="btn btn--accent">Email&nbsp;↗</a>
+        <a href="https://linkedin.com/in/thomas-gomez-pro" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn&nbsp;↗</a>
+      </div>
+      <p class="mono contact__meta">available for new projects — 2026</p>
     </div>
   </section>
 
   <!-- ============ FOOTER ============ -->
   <footer class="footer">
-    <div class="container">
-      <p>© 2026 Michi Consulting — Thomas Gómez</p>
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Michi Consulting — Thomas Gómez</p>
+      <p class="mono footer__meta">[ est. 2022 — ia / ml engineering ]</p>
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
