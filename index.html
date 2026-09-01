@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thomas Gomez — Data Engineer</title>
-  <meta name="description" content="Portfolio de Thomas Gomez — Data Engineer especializado en pipelines de datos, cloud (GCP) e inteligencia artificial. Actualmente en Accenture." />
+  <meta name="description" content="Portfolio of Thomas Gomez — Data Engineer specialized in data pipelines, cloud (GCP) and artificial intelligence. Currently at Accenture." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -20,11 +20,11 @@
         <span class="nav__word">Thomas&nbsp;Gomez</span>
       </a>
       <nav class="nav__links">
-        <a href="#sobre-mi"><span class="idx">01</span>Sobre mí</a>
+        <a href="#about"><span class="idx">01</span>About</a>
         <a href="#stack"><span class="idx">02</span>Stack</a>
-        <a href="#proyectos"><span class="idx">03</span>Proyectos</a>
-        <a href="#experiencia"><span class="idx">04</span>Experiencia</a>
-        <a href="#contacto" class="nav__cta">Contacto&nbsp;↗</a>
+        <a href="#projects"><span class="idx">03</span>Projects</a>
+        <a href="#experience"><span class="idx">04</span>Experience</a>
+        <a href="#contact" class="nav__cta">Contact&nbsp;↗</a>
       </nav>
     </div>
   </header>
@@ -33,31 +33,39 @@
   <section id="hero" class="hero">
     <span class="hero__watermark" aria-hidden="true">THOMAS&nbsp;GOMEZ</span>
     <div class="hero__laser" aria-hidden="true"></div>
+    <div class="hero__blueprint-grid" aria-hidden="true"></div>
 
     <div class="container">
-      <p class="kicker">[ data engineer — cloud · ai · pipelines ]</p>
+      <div class="hero__top-meta">
+        <p class="kicker">[ data engineer — cloud · ai · pipelines ]</p>
+        <span class="mono coordinate-tag">[ 34.9214° S, 57.9544° W ]</span>
+      </div>
       <h1 class="hero__title">Thomas<br />Gomez</h1>
 
       <div class="hero__grid">
         <div class="hero__copy">
-          <p class="hero__tagline">Construyo los pipelines que hacen hablar a los datos.</p>
+          <p class="hero__tagline">Nature doesn't guess, data does not either.</p>
           <p class="hero__text">
-            Data Engineer en Accenture, enfocado en el ciclo de vida completo
-            del dato: desde la ingesta y transformación hasta la infraestructura
-            cloud que lo sostiene. Trabajo con GCP, BigQuery, Python y agentes
-            de IA para resolver problemas reales a escala.
+            Data Engineer at Accenture, focused on the complete data lifecycle:
+            from ingestion and transformation to the underlying cloud
+            infrastructure. Working with GCP, BigQuery, Python, and AI agents
+            to solve real-world problems at scale.
           </p>
           <div class="hero__actions">
-            <a href="#contacto" class="btn btn--accent">Contactame&nbsp;↗</a>
-            <a href="#proyectos" class="btn btn--ghost">Ver proyectos</a>
+            <a href="#contact" class="btn btn--accent">Contact Me&nbsp;↗</a>
+            <a href="#projects" class="btn btn--ghost">View Projects</a>
           </div>
         </div>
 
         <div class="hero__panel" aria-hidden="true">
-          <div class="diamond">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <div class="botanical-frame">
+            <!-- Crystal / botanical wireframe representation -->
+            <div class="crystal-core"></div>
+            <div class="diamond">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
           </div>
-          <p class="mono caption">pipeline — active</p>
+          <p class="mono caption">pipeline — active // intent.AI</p>
         </div>
       </div>
 
@@ -65,43 +73,45 @@
         <li class="chip">Data Pipelines</li>
         <li class="chip">GCP / Cloud</li>
         <li class="chip">AI Agents</li>
+        <li class="chip">Medallion Architecture</li>
       </ul>
     </div>
   </section>
 
-  <!-- ============ SOBRE MÍ ============ -->
-  <section id="sobre-mi" class="section">
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
     <div class="container">
       <div class="section__head">
         <p class="kicker">[ about ]</p>
         <p class="mono section__idx">// 01</p>
       </div>
-      <h2 class="section__title">Sobre<br />mí</h2>
+      <h2 class="section__title">About<br />Me</h2>
 
       <div class="grid-asym">
         <aside class="grid-asym__side">
           <p class="mono label">role — data engineer</p>
           <p class="mono label">location — la plata, ba</p>
           <p class="mono label">university — utn frlp</p>
+          <p class="mono label">focus — intent & architecture</p>
         </aside>
         <div class="grid-asym__main">
           <p>
-            Soy Thomas, Data Engineer en Accenture. Arranqué mi carrera desde
-            la logística — supervisando flujos de información y trazabilidad
-            de paquetes — y eso me enseñó algo que no se aprende en un curso:
-            <em>los datos valen por las decisiones que habilitan, no por la
-            cantidad que acumulás</em>.
+            I'm Thomas, a Data Engineer at Accenture. I started my career in
+            logistics — supervising information flows and package traceability
+            — which taught me something you can't learn in a textbook:
+            <em>data matters for the decisions it enables, not the sheer
+            volume you accumulate</em>.
           </p>
           <p>
-            Hoy diseño y opero pipelines de datos end-to-end, mantengo
-            infraestructura cloud con IaC, y construyo agentes de IA — todo
-            dentro del ecosistema GCP. Estudio Ingeniería en Sistemas de
-            Información en la UTN y sigo formándome constantemente en cloud,
-            AI y data engineering.
+            Today, I design and operate end-to-end data pipelines, maintain cloud
+            infrastructure using IaC, and build AI agents — all within the GCP
+            ecosystem. I study Information Systems Engineering at UTN and
+            continually expand my expertise across cloud, AI, and data
+            engineering.
           </p>
           <p>
-            Mi enfoque: entender el problema de negocio primero, después
-            construir la solución técnica que lo resuelve.
+            My philosophy: understand the business problem with absolute clarity
+            first, then engineer the robust technical system to solve it.
           </p>
         </div>
       </div>
@@ -115,7 +125,7 @@
         <p class="kicker">[ tech stack ]</p>
         <p class="mono section__idx">// 02</p>
       </div>
-      <h2 class="section__title">Qué hago</h2>
+      <h2 class="section__title">What I Do</h2>
 
       <div class="stack">
         <article class="svc">
@@ -125,9 +135,9 @@
           </div>
           <h3 class="svc__title">Data Engineering & Pipelines</h3>
           <p class="svc__text">
-            Diseño y opero pipelines ELT/ETL end-to-end: desde la ingesta
-            hasta las capas de consumo. BigQuery, Airflow, dbt, Python, SQL,
-            Polars y Parquet — arquitectura medallón y cargas idempotentes.
+            Design and operate end-to-end ELT/ETL pipelines: from ingestion
+            to consumption layers. BigQuery, Airflow, dbt, Python, SQL,
+            Polars, and Parquet — medallion architecture and idempotent loads.
           </p>
         </article>
 
@@ -138,10 +148,10 @@
           </div>
           <h3 class="svc__title">Cloud & Infrastructure</h3>
           <p class="svc__text">
-            Infraestructura como código con Terraform, CI/CD con Azure
-            Pipelines, contenedores con Docker. Gestión de ambientes cloud
-            en GCP: provisioning, key rotation, incident resolution y
-            operaciones core.
+            Infrastructure as Code with Terraform, CI/CD with Azure
+            Pipelines, and containerization with Docker. Management of cloud
+            environments in GCP: provisioning, security rotation, incident
+            resolution, and core operations.
           </p>
         </article>
 
@@ -152,31 +162,29 @@
           </div>
           <h3 class="svc__title">AI & Analytics</h3>
           <p class="svc__text">
-            Construcción y orquestación de agentes de IA con Claude.
-            Análisis de datos a escala con Vertex AI, colaboración con
-            modelos de ML en producción, y reportes complejos sobre
-            big data.
+            Construction and orchestration of AI agents with Claude.
+            Large-scale data analysis with Vertex AI, collaboration with
+            production ML models, and complex big data reporting.
           </p>
         </article>
       </div>
 
       <p class="note">
         <span class="mono note__tag">[ note ]</span>
-        Siempre aprendiendo — 20+ certificaciones en cloud, AI, data
-        engineering y ciberseguridad. La curiosidad es mi stack más
-        importante.
+        Always evolving — 20+ certifications spanning cloud, AI, data
+        engineering, and cybersecurity. Infinite curiosity is my core engine.
       </p>
     </div>
   </section>
 
-  <!-- ============ PROYECTOS ============ -->
-  <section id="proyectos" class="section">
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section">
     <div class="container">
       <div class="section__head">
         <p class="kicker">[ projects ]</p>
         <p class="mono section__idx">// 03</p>
       </div>
-      <h2 class="section__title">Proyectos</h2>
+      <h2 class="section__title">Projects</h2>
 
       <div class="grid-2">
         <article class="case">
@@ -186,11 +194,11 @@
           </div>
           <h3 class="case__title">Airbnb Analytics Pipeline ↗</h3>
           <p class="case__text">
-            Pipeline ELT end-to-end que ingesta listings y reviews de Airbnb
-            desde Google Drive hacia BigQuery, transformándolos en data marts
-            analytics-ready. Arquitectura medallón (bronze → silver → gold),
-            orquestado con Airflow sobre Docker Compose, transformaciones con
-            dbt y cargas idempotentes en batches de 50k filas.
+            End-to-end ELT pipeline ingesting Airbnb listings and reviews
+            from Google Drive into BigQuery, transforming them into
+            analytics-ready data marts. Medallion architecture (bronze →
+            silver → gold), orchestrated with Airflow on Docker Compose,
+            transformations with dbt, and idempotent batch loads.
           </p>
         </article>
 
@@ -199,27 +207,27 @@
             <span class="mono case__num">project 02</span>
             <span class="chip">fullstack</span>
           </div>
-          <h3 class="case__title">Sistema de gestión LINSI ↗</h3>
+          <h3 class="case__title">LINSI Management System ↗</h3>
           <p class="case__text">
-            Sistema interno para el laboratorio de investigación de la UTN:
-            gestión de horas de pasantes y solicitudes de acceso a materiales.
-            Backend en Java con Spring Boot, frontend en JavaScript con
-            Angular, base de datos SQL. Deployado en infraestructura física
-            del laboratorio con administración de red y monitoreo.
+            Internal system for the UTN research laboratory: management of
+            intern working hours and material access requests. Java Spring
+            Boot backend, Angular frontend, SQL database. Deployed on physical
+            laboratory infrastructure with custom network administration and
+            monitoring.
           </p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ============ EXPERIENCIA ============ -->
-  <section id="experiencia" class="section">
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
     <div class="container">
       <div class="section__head">
         <p class="kicker">[ experience ]</p>
         <p class="mono section__idx">// 04</p>
       </div>
-      <h2 class="section__title">Experiencia</h2>
+      <h2 class="section__title">Experience</h2>
 
       <div class="grid-asym">
         <div class="grid-asym__main">
@@ -228,21 +236,21 @@
               <span class="mono list__num">01</span>
               <div class="list__body">
                 <h3>Accenture — Analytics & Modeling</h3>
-                <p>Análisis y arquitectura de flujos de datos para un equipo de prevención de fraude. Pipelines en BigQuery, agentes de IA con Claude, infraestructura cloud y modelos de ML en producción.</p>
+                <p>Analysis and architecture of data flows for a fraud prevention team. BigQuery pipelines, AI agents with Claude, cloud infrastructure, and production ML models.</p>
               </div>
             </li>
             <li>
               <span class="mono list__num">02</span>
               <div class="list__body">
                 <h3>Accenture — Data Engineer</h3>
-                <p>Ciclo de vida del dato end-to-end en GCP: queries en BigQuery, procesamiento con Python en Vertex AI, pipelines en Azure DevOps e infraestructura con Terraform.</p>
+                <p>End-to-end data lifecycle in GCP: BigQuery queries, Python processing in Vertex AI, Azure DevOps pipelines, and Terraform infrastructure.</p>
               </div>
             </li>
             <li>
               <span class="mono list__num">03</span>
               <div class="list__body">
                 <h3>Fast Track — Logistics Analyst</h3>
-                <p>Supervisión de flujos de información y trazabilidad de paquetes. Donde entendí que los datos son el sistema nervioso de cualquier operación.</p>
+                <p>Supervision of information flows and package traceability. Where I truly understood that data forms the nervous system of any operational scale.</p>
               </div>
             </li>
           </ol>
@@ -260,16 +268,16 @@
     </div>
   </section>
 
-  <!-- ============ CONTACTO ============ -->
-  <section id="contacto" class="section contact">
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact">
     <span class="contact__watermark" aria-hidden="true">CONTACT</span>
     <div class="container">
       <div class="section__head">
         <p class="kicker">[ contact ]</p>
         <p class="mono section__idx">// 05</p>
       </div>
-      <h2 class="section__title">Hablemos</h2>
-      <p class="contact__lead">Si buscás un data engineer con hambre de construir, escribime.</p>
+      <h2 class="section__title">Let's Talk</h2>
+      <p class="contact__lead">If you are looking for a data engineer driven by precision and intent, reach out.</p>
 
       <div class="contact__actions">
         <a href="mailto:thomasgomezone@gmail.com" class="btn btn--accent">Email&nbsp;↗</a>
